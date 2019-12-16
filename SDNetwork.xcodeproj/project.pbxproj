@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841BBB01238913E6001CCF09 /* tnettopo.py in Resources */ = {isa = PBXBuildFile; fileRef = 841BBB00238913E6001CCF09 /* tnettopo.py */; };
+		841EC1142381E2CE00C35210 /* TestNetSelectionGroup.py in Resources */ = {isa = PBXBuildFile; fileRef = 841EC1072381E2CE00C35210 /* TestNetSelectionGroup.py */; };
+		841EC1152381E2CE00C35210 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = 841EC1092381E2CE00C35210 /* __init__.py */; };
+		841EC1162381E2CE00C35210 /* TestNetLogger.py in Resources */ = {isa = PBXBuildFile; fileRef = 841EC10A2381E2CE00C35210 /* TestNetLogger.py */; };
+		841EC1172381E2CE00C35210 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = 841EC10B2381E2CE00C35210 /* __init__.py */; };
+		841EC1192381E2CE00C35210 /* TestNetLauncher.py in Resources */ = {isa = PBXBuildFile; fileRef = 841EC10E2381E2CE00C35210 /* TestNetLauncher.py */; };
+		841EC11A2381E2CE00C35210 /* TestNetParser.py in Resources */ = {isa = PBXBuildFile; fileRef = 841EC10F2381E2CE00C35210 /* TestNetParser.py */; };
+		841EC11B2381E2CE00C35210 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = 841EC1102381E2CE00C35210 /* __init__.py */; };
+		841EC1242381E88900C35210 /* bin in Resources */ = {isa = PBXBuildFile; fileRef = 841EC1232381E88900C35210 /* bin */; };
+		842B0D7B23863EE700DD18D9 /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = 842B0D7A23863EE700DD18D9 /* install.sh */; };
+		8459FBBF23856873009DC2FD /* setup.py in Resources */ = {isa = PBXBuildFile; fileRef = 8459FBBE23856873009DC2FD /* setup.py */; };
+		8459FBC223857128009DC2FD /* run.py in Resources */ = {isa = PBXBuildFile; fileRef = 8459FBC123857128009DC2FD /* run.py */; };
+		8459FBC72385AA8B009DC2FD /* setup.py in Resources */ = {isa = PBXBuildFile; fileRef = 8459FBC62385AA8B009DC2FD /* setup.py */; };
+		84619D1E2383955E00BF89C1 /* TestNetDisplay.py in Resources */ = {isa = PBXBuildFile; fileRef = 84619D1D2383955E00BF89C1 /* TestNetDisplay.py */; };
+		84BF951A2384940D001B34D0 /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BF9518238493E5001B34D0 /* Python.framework */; };
+		84F494CD2384D0560002A873 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = 84F494CB2384D0560002A873 /* __init__.py */; };
+		84F494CE2384D0560002A873 /* dijkstra.py in Resources */ = {isa = PBXBuildFile; fileRef = 84F494CC2384D0560002A873 /* dijkstra.py */; };
+		84F494E12385504D0002A873 /* Switch-All-Variables.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84F494E02385504D0002A873 /* Switch-All-Variables.txt */; };
+		84F756852387AFDF00DE1CF8 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84F756842387AFDF00DE1CF8 /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84619D3323840A2300BF89C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		841BBB00238913E6001CCF09 /* tnettopo.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tnettopo.py; sourceTree = "<group>"; };
+		841EC0DE2381E17B00C35210 /* SDNetwork.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDNetwork.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		841EC0E12381E17B00C35210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841EC1072381E2CE00C35210 /* TestNetSelectionGroup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TestNetSelectionGroup.py; sourceTree = "<group>"; };
+		841EC1092381E2CE00C35210 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		841EC10A2381E2CE00C35210 /* TestNetLogger.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TestNetLogger.py; sourceTree = "<group>"; usesTabs = 1; };
+		841EC10B2381E2CE00C35210 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		841EC10E2381E2CE00C35210 /* TestNetLauncher.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TestNetLauncher.py; sourceTree = "<group>"; usesTabs = 1; };
+		841EC10F2381E2CE00C35210 /* TestNetParser.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = TestNetParser.py; sourceTree = "<group>"; usesTabs = 1; };
+		841EC1102381E2CE00C35210 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		841EC1232381E88900C35210 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		842B0D7A23863EE700DD18D9 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		84433A4F23932DF1000B8E5C /* Install.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Install.md; path = docs/Install.md; sourceTree = "<group>"; };
+		84433A50239353CE000B8E5C /* CHANGES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES.txt; sourceTree = "<group>"; };
+		84433A512393542F000B8E5C /* CHANGES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGES.md; sourceTree = "<group>"; };
+		8459FBBE23856873009DC2FD /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = setup.py; path = SDNetwork/Library/TestNet/setup.py; sourceTree = SOURCE_ROOT; };
+		8459FBC123857128009DC2FD /* run.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = run.py; sourceTree = "<group>"; };
+		8459FBC52385A1DB009DC2FD /* setup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; };
+		8459FBC62385AA8B009DC2FD /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; lineEnding = 2; path = setup.py; sourceTree = "<group>"; };
+		84619D1D2383955E00BF89C1 /* TestNetDisplay.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = TestNetDisplay.py; sourceTree = "<group>"; };
+		84619D3523840A2300BF89C1 /* SDNetworkLauncher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDNetworkLauncher; sourceTree = BUILT_PRODUCTS_DIR; };
+		846FDA42238AC2900021DD8D /* TestNetEnvironment.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = TestNetEnvironment.py; sourceTree = "<group>"; };
+		846FDA44238AC2900021DD8D /* TestNetRawLink.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = TestNetRawLink.py; sourceTree = "<group>"; };
+		846FDA45238AC2900021DD8D /* TestNetEnvCLI.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = TestNetEnvCLI.py; sourceTree = "<group>"; };
+		846FDA46238AC2900021DD8D /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		846FDA47238AC2900021DD8D /* TestNetTopo.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = TestNetTopo.py; sourceTree = "<group>"; };
+		84BF9518238493E5001B34D0 /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
+		84E02ABF2384A2D400C34E69 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; usesTabs = 1; };
+		84F494CB2384D0560002A873 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		84F494CC2384D0560002A873 /* dijkstra.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = dijkstra.py; sourceTree = "<group>"; };
+		84F494E02385504D0002A873 /* Switch-All-Variables.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Switch-All-Variables.txt"; path = "docs/Switch-All-Variables.txt"; sourceTree = SOURCE_ROOT; };
+		84F756842387AFDF00DE1CF8 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841EC0DB2381E17B00C35210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84619D3223840A2300BF89C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF951A2384940D001B34D0 /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841C8051238E704700E04FF3 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				842B0D7A23863EE700DD18D9 /* install.sh */,
+				8459FBC52385A1DB009DC2FD /* setup.sh */,
+				8459FBC123857128009DC2FD /* run.py */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		841EC0D52381E17B00C35210 = {
+			isa = PBXGroup;
+			children = (
+				841BBB00238913E6001CCF09 /* tnettopo.py */,
+				84F756842387AFDF00DE1CF8 /* README.txt */,
+				84E02ABF2384A2D400C34E69 /* README.md */,
+				84433A50239353CE000B8E5C /* CHANGES.txt */,
+				84433A512393542F000B8E5C /* CHANGES.md */,
+				84433A4F23932DF1000B8E5C /* Install.md */,
+				841C8051238E704700E04FF3 /* Scripts */,
+				842B0D7C2386473100DD18D9 /* docs */,
+				841EC0E02381E17B00C35210 /* SDNetwork */,
+				841EC0DF2381E17B00C35210 /* Products */,
+				84BF9517238493E5001B34D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		841EC0DF2381E17B00C35210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841EC0DE2381E17B00C35210 /* SDNetwork.bundle */,
+				84619D3523840A2300BF89C1 /* SDNetworkLauncher */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841EC0E02381E17B00C35210 /* SDNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				841EC1232381E88900C35210 /* bin */,
+				841EC11C2381E32100C35210 /* Library */,
+				841EC0E12381E17B00C35210 /* Info.plist */,
+			);
+			path = SDNetwork;
+			sourceTree = "<group>";
+		};
+		841EC1022381E2CE00C35210 /* TestNet */ = {
+			isa = PBXGroup;
+			children = (
+				841EC10B2381E2CE00C35210 /* __init__.py */,
+				8459FBBE23856873009DC2FD /* setup.py */,
+				846FDA41238AC2900021DD8D /* Topology */,
+				841EC1082381E2CE00C35210 /* Logger */,
+				841EC10D2381E2CE00C35210 /* Utility */,
+			);
+			path = TestNet;
+			sourceTree = "<group>";
+		};
+		841EC1082381E2CE00C35210 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				841EC1092381E2CE00C35210 /* __init__.py */,
+				841EC10A2381E2CE00C35210 /* TestNetLogger.py */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		841EC10D2381E2CE00C35210 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				841EC1102381E2CE00C35210 /* __init__.py */,
+				84F494CC2384D0560002A873 /* dijkstra.py */,
+				841EC10F2381E2CE00C35210 /* TestNetParser.py */,
+				84619D1D2383955E00BF89C1 /* TestNetDisplay.py */,
+				841EC10E2381E2CE00C35210 /* TestNetLauncher.py */,
+				841EC1072381E2CE00C35210 /* TestNetSelectionGroup.py */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		841EC11C2381E32100C35210 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				84F494CA2384CFEB0002A873 /* LSRouting */,
+				841EC1222381E87500C35210 /* sh */,
+				841EC1022381E2CE00C35210 /* TestNet */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		841EC1222381E87500C35210 /* sh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sh;
+			sourceTree = "<group>";
+		};
+		842B0D7C2386473100DD18D9 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				84F494E02385504D0002A873 /* Switch-All-Variables.txt */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		846FDA41238AC2900021DD8D /* Topology */ = {
+			isa = PBXGroup;
+			children = (
+				846FDA46238AC2900021DD8D /* __init__.py */,
+				846FDA47238AC2900021DD8D /* TestNetTopo.py */,
+				846FDA44238AC2900021DD8D /* TestNetRawLink.py */,
+				846FDA42238AC2900021DD8D /* TestNetEnvironment.py */,
+				846FDA45238AC2900021DD8D /* TestNetEnvCLI.py */,
+			);
+			path = Topology;
+			sourceTree = "<group>";
+		};
+		84BF9517238493E5001B34D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84BF9518238493E5001B34D0 /* Python.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F494CA2384CFEB0002A873 /* LSRouting */ = {
+			isa = PBXGroup;
+			children = (
+				8459FBC62385AA8B009DC2FD /* setup.py */,
+				84F494CB2384D0560002A873 /* __init__.py */,
+			);
+			path = LSRouting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841EC0DD2381E17B00C35210 /* SDNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841EC0E42381E17B00C35210 /* Build configuration list for PBXNativeTarget "SDNetwork" */;
+			buildPhases = (
+				841EC0DA2381E17B00C35210 /* Sources */,
+				841EC0DB2381E17B00C35210 /* Frameworks */,
+				841EC0DC2381E17B00C35210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDNetwork;
+			productName = SDNetwork;
+			productReference = 841EC0DE2381E17B00C35210 /* SDNetwork.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		84619D3423840A2300BF89C1 /* SDNetworkLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84619D3923840A2300BF89C1 /* Build configuration list for PBXNativeTarget "SDNetworkLauncher" */;
+			buildPhases = (
+				84619D3123840A2300BF89C1 /* Sources */,
+				84619D3223840A2300BF89C1 /* Frameworks */,
+				84619D3323840A2300BF89C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDNetworkLauncher;
+			productName = SDNetworkLauncher;
+			productReference = 84619D3523840A2300BF89C1 /* SDNetworkLauncher */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841EC0D62381E17B00C35210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = maximpuchkov;
+				TargetAttributes = {
+					841EC0DD2381E17B00C35210 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					84619D3423840A2300BF89C1 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 841EC0D92381E17B00C35210 /* Build configuration list for PBXProject "SDNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841EC0D52381E17B00C35210;
+			productRefGroup = 841EC0DF2381E17B00C35210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841EC0DD2381E17B00C35210 /* SDNetwork */,
+				84619D3423840A2300BF89C1 /* SDNetworkLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841EC0DC2381E17B00C35210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842B0D7B23863EE700DD18D9 /* install.sh in Resources */,
+				841BBB01238913E6001CCF09 /* tnettopo.py in Resources */,
+				84619D1E2383955E00BF89C1 /* TestNetDisplay.py in Resources */,
+				84F756852387AFDF00DE1CF8 /* README.txt in Resources */,
+				84F494CE2384D0560002A873 /* dijkstra.py in Resources */,
+				841EC1172381E2CE00C35210 /* __init__.py in Resources */,
+				841EC1242381E88900C35210 /* bin in Resources */,
+				841EC1142381E2CE00C35210 /* TestNetSelectionGroup.py in Resources */,
+				8459FBBF23856873009DC2FD /* setup.py in Resources */,
+				8459FBC72385AA8B009DC2FD /* setup.py in Resources */,
+				8459FBC223857128009DC2FD /* run.py in Resources */,
+				841EC11A2381E2CE00C35210 /* TestNetParser.py in Resources */,
+				841EC1192381E2CE00C35210 /* TestNetLauncher.py in Resources */,
+				841EC1152381E2CE00C35210 /* __init__.py in Resources */,
+				84F494E12385504D0002A873 /* Switch-All-Variables.txt in Resources */,
+				841EC11B2381E2CE00C35210 /* __init__.py in Resources */,
+				84F494CD2384D0560002A873 /* __init__.py in Resources */,
+				841EC1162381E2CE00C35210 /* TestNetLogger.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841EC0DA2381E17B00C35210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84619D3123840A2300BF89C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		841EC0E22381E17B00C35210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		841EC0E32381E17B00C35210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		841EC0E52381E17B00C35210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U55Q33J358;
+				INFOPLIST_FILE = SDNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximpuchkov.SDNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		841EC0E62381E17B00C35210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U55Q33J358;
+				INFOPLIST_FILE = SDNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximpuchkov.SDNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		84619D3A23840A2300BF89C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U55Q33J358;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Cellar/python@2/2.7.15_3/Frameworks/Python.framework/Versions/2.7/include/python2.7",
+					"/usr/local/Cellar/opencv@2/2.4.13.7_2/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/python@2/2.7.15_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7",
+					"/usr/local/Cellar/opencv@2/2.4.13.7_2/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84619D3B23840A2300BF89C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U55Q33J358;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Cellar/python@2/2.7.15_3/Frameworks/Python.framework/Versions/2.7/include/python2.7",
+					"/usr/local/Cellar/opencv@2/2.4.13.7_2/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/python@2/2.7.15_3/Frameworks/Python.framework/Versions/2.7/lib/python2.7",
+					"/usr/local/Cellar/opencv@2/2.4.13.7_2/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841EC0D92381E17B00C35210 /* Build configuration list for PBXProject "SDNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841EC0E22381E17B00C35210 /* Debug */,
+				841EC0E32381E17B00C35210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841EC0E42381E17B00C35210 /* Build configuration list for PBXNativeTarget "SDNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841EC0E52381E17B00C35210 /* Debug */,
+				841EC0E62381E17B00C35210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84619D3923840A2300BF89C1 /* Build configuration list for PBXNativeTarget "SDNetworkLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84619D3A23840A2300BF89C1 /* Debug */,
+				84619D3B23840A2300BF89C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841EC0D62381E17B00C35210 /* Project object */;
+}
